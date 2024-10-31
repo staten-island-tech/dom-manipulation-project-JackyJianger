@@ -16,7 +16,7 @@ function makeCard() {
   clearInput();
   cardRemoval(card.id);
 }
-function injectCardIntoDOM(card) {
+function injectCardIntoDOM(card) {  
   DOMSelectors.cardContainer.insertAdjacentHTML(
     "beforeend",
     `<div class="card" id="${card.id}">
